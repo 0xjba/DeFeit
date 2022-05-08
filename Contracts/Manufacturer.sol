@@ -9,8 +9,8 @@ contract Manufacturer {
     }
 
     address[] manufacturer = [
-        0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2,
-        0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+        0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266,
+        0x70997970C51812dc3A010C7d01b50e0d17dc79C8
     ];
 
     struct Drugdetails {
