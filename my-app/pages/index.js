@@ -51,8 +51,72 @@ export default function Home() {
       </Head>
       {active ? (
         <>
-          "Connected"
-          <button onClick={() => execute()}>Execute</button>
+          Please enter the drug details
+          <br />
+          <input
+            placeholder="Name:"
+            name="drugName"
+            type="text"
+            handleChange={() => {}}
+          />
+          <br />
+          <input
+            placeholder="Net Content:"
+            name="netContent"
+            type="number"
+            handleChange={() => {}}
+          />
+          <br />
+          <input
+            placeholder="Manufacturer License No.:"
+            name="licenseNo"
+            type="text"
+            handleChange={() => {}}
+          />
+          <br />
+          <input
+            placeholder="Batch No.:"
+            name="batchNo"
+            type="number"
+            handleChange={() => {}}
+          />
+          <br />
+          <input
+            placeholder="Mfg. Date:"
+            name="mfgDate"
+            type="text"
+            handleChange={() => {}}
+          />
+          <br />
+          <input
+            placeholder="Exp. Date:"
+            name="expDate"
+            type="number"
+            handleChange={() => {}}
+          />
+          <br />
+          <input
+            placeholder="Price:"
+            name="price"
+            type="number"
+            handleChange={() => {}}
+          />
+          <br />
+          <input
+            placeholder="Mfg. By:"
+            name="mfgBy"
+            type="text"
+            handleChange={() => {}}
+          />
+          <br />
+          <input
+            placeholder="Ingredients:"
+            name="ingredients"
+            type="text"
+            handleChange={() => {}}
+          />
+          <br />
+          <button onClick={() => execute()}>Save</button>
         </>
       ) : (
         <button onClick={() => connect()}>Connect</button>
